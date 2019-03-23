@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/my_bg"
+    tools:context=".ItemDetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Item Name"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:id="@+id/foodTitle"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Food Description"
+            android:textColor="@android:color/white"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:id="@+id/foodDescription"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/foodPrice"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Food price"
+            android:textSize="18dp"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/increaseOrder"
+                android:text="+"
+                style="@style/Base.Widget.AppCompat.Button.Colored"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:text="Quantity : "
+                android:id="@+id/quantity"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:id="@+id/decreaseOrder"
+                android:text="-"
+                style="@style/Base.Widget.AppCompat.Button.Colored"/>
+        </LinearLayout>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cash On Delivery"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:layout_margin="10dp"
+            android:padding="10dp"
+            android:id="@+id/deliveryCheckbox"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationSpinner"
+            android:layout_margin="10dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationTextView"
+            android:text="Location : "
+            android:textSize="16sp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/foodPrice"
+            android:layout_gravity="center_horizontal"
+            android:text="Place Order"
+            android:textAllCaps="false"
+            style="@style/Base.Widget.AppCompat.Button.Colored"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:id="@+id/placeOrderButton"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

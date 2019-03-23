@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/relative_layout_for_popup"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invoice"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_item_namee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item name"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item price"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item quantity"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>

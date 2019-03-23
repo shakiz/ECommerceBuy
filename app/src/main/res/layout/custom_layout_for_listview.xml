@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/relative_layout_for_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details popup window"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_item_company"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details popup window"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details popup window"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/tv_avialability"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details popup window"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:padding="25sp"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
